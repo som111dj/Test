@@ -9,6 +9,8 @@ public class SampleApp {
 			System.out.println(i);
 		}// end of for loop
 	//	System.out.println("Add ="+new Math().sum(100,200));
+		WishGenerator generator= new WishGenerator();
+		System.out.println("Message:: " +generator.generateWishMessage("SOUMYA"));
 
 	}//end of main(-)
 
