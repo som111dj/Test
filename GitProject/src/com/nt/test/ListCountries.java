@@ -7,7 +7,7 @@ public class ListCountries {
 		 Locale locale[]=Locale.getAvailableLocales();
 		 for(Locale l:locale)
 		 {
-			 System.out.println(l.getDisplayCountry());
+			 System.out.println(l.getDisplayCountry()+"  "+l.getDisplayLanguage());
 		 }
 	 }
 
