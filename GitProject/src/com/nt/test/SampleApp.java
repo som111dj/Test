@@ -1,6 +1,7 @@
 package com.nt.test;
 //import com.nt.test.Math;
 
+
 public class SampleApp {
 
 	public static void main(String[] args) {
@@ -14,6 +15,8 @@ public class SampleApp {
 		//invoke method 
 		
 		new ListCountries().displayCountries();
+		System.out.println(new ListCountries().print());
+		
 
 	}//end of main(-)
 
